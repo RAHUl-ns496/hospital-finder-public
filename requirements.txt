@@ -1,0 +1,9 @@
+﻿streamlit
+folium
+streamlit-folium
+geocoder
+geopy
+requests
+pandas
+pymongo
+reportlab

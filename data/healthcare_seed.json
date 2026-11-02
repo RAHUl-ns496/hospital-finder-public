@@ -1,0 +1,205 @@
+{
+  "hospitals": [
+    {
+      "name": "AIIMS New Delhi",
+      "type": "hospital",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": "Sri Aurobindo Marg, Ansari Nagar",
+      "phone": "+91-11-26588500",
+      "emergency_phone": "112",
+      "latitude": 28.5672,
+      "longitude": 77.2100,
+      "services": ["Emergency", "ICU", "Cardiology", "Neurology", "Trauma", "Pediatrics"],
+      "beds_total": 2478,
+      "beds_available": 86,
+      "icu_available": 12,
+      "ambulance_available": true,
+      "open_24x7": true,
+      "verified": true
+    },
+    {
+      "name": "Fortis Hospital Mulund",
+      "type": "hospital",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": "Mulund Goregaon Link Road, Mulund West",
+      "phone": "+91-22-67994444",
+      "emergency_phone": "+91-22-67994444",
+      "latitude": 19.1726,
+      "longitude": 72.9562,
+      "services": ["Emergency", "Cardiology", "Orthopedics", "Oncology", "Maternity"],
+      "beds_total": 315,
+      "beds_available": 24,
+      "icu_available": 5,
+      "ambulance_available": true,
+      "open_24x7": true,
+      "verified": true
+    },
+    {
+      "name": "Narayana Health City",
+      "type": "hospital",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "address": "258/A, Bommasandra Industrial Area",
+      "phone": "+91-80-71222222",
+      "emergency_phone": "+91-80-71222222",
+      "latitude": 12.7990,
+      "longitude": 77.6840,
+      "services": ["Emergency", "Cardiology", "Transplant", "Pediatrics", "Critical Care"],
+      "beds_total": 1400,
+      "beds_available": 51,
+      "icu_available": 9,
+      "ambulance_available": true,
+      "open_24x7": true,
+      "verified": true
+    }
+  ],
+  "doctors": [
+    {
+      "email": "priya.sharma@healthcare.demo",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Emergency Medicine",
+      "hospital": "AIIMS New Delhi",
+      "city": "New Delhi",
+      "experience_years": 12,
+      "qualification": "MBBS, MD Emergency Medicine",
+      "languages": ["English", "Hindi"],
+      "consultation_fee": 800,
+      "rating": 4.8,
+      "phone": "+91-98765-43210",
+      "available_online": true,
+      "verified": true
+    },
+    {
+      "email": "arjun.mehta@healthcare.demo",
+      "name": "Dr. Arjun Mehta",
+      "specialty": "Cardiology",
+      "hospital": "Fortis Hospital Mulund",
+      "city": "Mumbai",
+      "experience_years": 15,
+      "qualification": "MBBS, MD, DM Cardiology",
+      "languages": ["English", "Hindi", "Marathi"],
+      "consultation_fee": 1200,
+      "rating": 4.7,
+      "phone": "+91-98111-22334",
+      "available_online": true,
+      "verified": true
+    },
+    {
+      "email": "kavya.reddy@healthcare.demo",
+      "name": "Dr. Kavya Reddy",
+      "specialty": "Pediatrics",
+      "hospital": "Narayana Health City",
+      "city": "Bengaluru",
+      "experience_years": 9,
+      "qualification": "MBBS, MD Pediatrics",
+      "languages": ["English", "Hindi", "Kannada", "Telugu"],
+      "consultation_fee": 700,
+      "rating": 4.9,
+      "phone": "+91-99000-11223",
+      "available_online": true,
+      "verified": true
+    }
+  ],
+  "blood_banks": [
+    {
+      "name": "Indian Red Cross Blood Centre",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": "1 Red Cross Road",
+      "phone": "+91-11-23711551",
+      "latitude": 28.6258,
+      "longitude": 77.2232,
+      "blood_inventory": {"A+": 42, "A-": 6, "B+": 38, "B-": 4, "AB+": 12, "AB-": 2, "O+": 56, "O-": 8},
+      "open_24x7": true,
+      "verified": true
+    },
+    {
+      "name": "KEM Hospital Blood Bank",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": "Acharya Donde Marg, Parel",
+      "phone": "+91-22-24107000",
+      "latitude": 18.9990,
+      "longitude": 73.0000,
+      "blood_inventory": {"A+": 28, "A-": 3, "B+": 31, "B-": 5, "AB+": 9, "AB-": 1, "O+": 44, "O-": 5},
+      "open_24x7": true,
+      "verified": true
+    },
+    {
+      "name": "Narayana Blood Centre",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "address": "Bommasandra Industrial Area",
+      "phone": "+91-80-71222000",
+      "latitude": 12.7970,
+      "longitude": 77.6810,
+      "blood_inventory": {"A+": 35, "A-": 4, "B+": 27, "B-": 3, "AB+": 8, "AB-": 1, "O+": 49, "O-": 6},
+      "open_24x7": false,
+      "verified": true
+    }
+  ],
+  "pharmacies": [
+    {
+      "name": "Apollo Pharmacy AIIMS",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": "Ansari Nagar, near AIIMS",
+      "phone": "+91-11-26589001",
+      "latitude": 28.5665,
+      "longitude": 77.2090,
+      "open_24x7": true,
+      "delivery_available": true,
+      "prescription_required": true,
+      "medicines": [
+        {"name": "Paracetamol 500mg", "category": "Fever and pain", "available": true, "quantity": 42, "prescription_required": false},
+        {"name": "Cetirizine 10mg", "category": "Allergy relief", "available": true, "quantity": 25, "prescription_required": false},
+        {"name": "ORS Sachets", "category": "Hydration", "available": true, "quantity": 60, "prescription_required": false},
+        {"name": "Azithromycin 500mg", "category": "Antibiotic", "available": true, "quantity": 12, "prescription_required": true}
+      ],
+      "services": ["Prescription medicines", "OTC medicines", "Home delivery"],
+      "verified": true
+    },
+    {
+      "name": "MedPlus Mulund West",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": "Mulund Goregaon Link Road",
+      "phone": "+91-22-41234567",
+      "latitude": 19.1734,
+      "longitude": 72.9545,
+      "open_24x7": false,
+      "delivery_available": true,
+      "prescription_required": true,
+      "medicines": [
+        {"name": "Paracetamol 500mg", "category": "Fever and pain", "available": true, "quantity": 18, "prescription_required": false},
+        {"name": "Cetirizine 10mg", "category": "Allergy relief", "available": false, "quantity": 0, "prescription_required": false},
+        {"name": "ORS Sachets", "category": "Hydration", "available": true, "quantity": 32, "prescription_required": false},
+        {"name": "Azithromycin 500mg", "category": "Antibiotic", "available": false, "quantity": 0, "prescription_required": true}
+      ],
+      "services": ["Prescription medicines", "OTC medicines", "Wellness products"],
+      "verified": true
+    },
+    {
+      "name": "1mg Pharmacy Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "address": "Electronic City Phase 1",
+      "phone": "+91-80-45678900",
+      "latitude": 12.8450,
+      "longitude": 77.6600,
+      "open_24x7": true,
+      "delivery_available": true,
+      "prescription_required": true,
+      "medicines": [
+        {"name": "Paracetamol 500mg", "category": "Fever and pain", "available": true, "quantity": 30, "prescription_required": false},
+        {"name": "Cetirizine 10mg", "category": "Allergy relief", "available": true, "quantity": 16, "prescription_required": false},
+        {"name": "ORS Sachets", "category": "Hydration", "available": true, "quantity": 50, "prescription_required": false},
+        {"name": "Azithromycin 500mg", "category": "Antibiotic", "available": true, "quantity": 8, "prescription_required": true}
+      ],
+      "services": ["Prescription medicines", "Lab test booking", "Home delivery"],
+      "verified": true
+    }
+  ]
+}

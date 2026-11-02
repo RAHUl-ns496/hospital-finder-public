@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.log
+
+# Local runtime and user data
+.data/
+data/interactions.json
+data/users.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
